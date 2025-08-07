@@ -18,7 +18,7 @@ Untuk mencoba program pastikan
 > 1. Anda telah menginstall aplikasi discord
 > 2. Anda telah memiliki token bot (cara mendapatkannya cari saja di youtube)
 > 3. Setelah mendapatkan token bot, buka `bot.py` lalu simpan token di dalam variable `TOKEN`
-> 4. jalankan program dengan command `python bot.py`
+> 5. jalankan program dengan command `python bot.py`
 
 ## How To
 > 1. Menambah tugas `!add_task <tugasnya (str)>
