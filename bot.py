@@ -7,8 +7,8 @@ TOKEN = "INPUT YOUR OWN TOKEN"
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
-DB_NAME = 'tugas.db'
-db_act = Command(DB_NAME)
+name = 'tugas.db'
+db_act = Command(name)
 
 @bot.event
 async def on_ready():
@@ -44,4 +44,5 @@ async def undo_mark(ctx, task_id: int):
     await ctx.send(result)
 
 if __name__ == "__main__":
+
     bot.run(TOKEN)
