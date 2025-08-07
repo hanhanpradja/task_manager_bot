@@ -19,3 +19,11 @@ Untuk mencoba program pastikan
 > 2. Anda telah memiliki token bot (cara mendapatkannya cari saja di youtube)
 > 3. Setelah mendapatkan token bot, buka `bot.py` lalu simpan token di dalam variable `TOKEN`
 > 4. jalankan program dengan command `python bot.py`
+
+## How To
+> 1. Menambah tugas `!add_task <tugasnya (str)>
+> 2. Menandai tugas `!complete_task <id tugas (int)>
+> 3. Menghapus tugas `!delete_task <id tugas (int)>
+> 4. Melihat semua tugas `!show_task`
+
+Feedback silahkan sampaikan saja
