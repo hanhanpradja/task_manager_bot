@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 from command import Command
-from database import create_database
 
 TOKEN = "INPUT YOUR OWN TOKEN"
 
@@ -9,7 +8,6 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 name = 'tugas.db'
-create_database(name)
 db_act = Command(name)
 
 @bot.event
@@ -48,4 +46,5 @@ async def undo_mark(ctx, task_id: int):
 if __name__ == "__main__":
 
     bot.run(TOKEN)
+
 
